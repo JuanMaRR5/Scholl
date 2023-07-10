@@ -5,6 +5,7 @@
 
    body {
     font-family:  sans-serif;
+    background-color: rgb(240, 225, 225);
    }
 
 
@@ -71,9 +72,18 @@ nav li:active {
      }
 
 
-     .footer{
+
+
+.donde{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+.footer{
         background-color:rgb(26, 26, 206);
         border: solid 2px  rgb(230, 230, 16);
         color: white;
+        height: 4rem;
        
      }
