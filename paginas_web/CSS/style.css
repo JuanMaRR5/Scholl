@@ -75,7 +75,17 @@ nav li:active {
 
 
 .donde{
-    margin: 1rem;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+
+.servicio-podologico{
+    margin: 0.4rem;
+    padding: 1rem;
+}
+
+.plantillas-ortopedicas{
+    margin: 0.4rem;
     padding: 1rem;
 }
 
