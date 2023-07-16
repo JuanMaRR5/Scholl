@@ -5,7 +5,7 @@
 
    body {
     font-family:  sans-serif;
-    background-color: rgb(240, 225, 225);
+    background-color: rgb(255, 255, 255);
    }
 
 
@@ -30,6 +30,7 @@
     align-items: center;
     color: rgb(240, 231, 231);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
   
 }
 
@@ -57,7 +58,7 @@ nav li:active {
 
   nav li{
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1.24rem;
     padding: 1rem;
     }
 
@@ -79,15 +80,14 @@ nav li:active {
     padding: 2rem;
 }
 
-.servicio-podologico{
+.servicio-plantillas-productos{
     margin: 0.4rem;
     padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
 }
 
-.plantillas-ortopedicas{
-    margin: 0.4rem;
-    padding: 1rem;
-}
+
 
 
 .footer{
