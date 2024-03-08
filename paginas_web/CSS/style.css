@@ -64,27 +64,45 @@
   }
 
 
-
-.donde{
-    margin: 1.5rem;
-    padding: 2rem;
-}
-
-.separacion{
-    background-color: rgb(145, 145, 255)127, 127, 177);
-}
-
 .servicio-plantillas-productos{
-    margin: 0.4rem;
-    padding: 1rem;
+    margin: 0.7rem;
+    padding: 0.7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
    
 }
 
+.donde{
+    background-color: rgb(154, 196, 245);
+    margin-top: 4rem;
+     
+}
+.donde h3{
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.telefonos{
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.telefonos h4{
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
 
-
-
+.ubicacion{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.8rem;
+}
+.ubicacion p{
+    font-size: 1.4rem;
+}
 .footer{
         background-color:rgb(26, 26, 206);
         border: solid 2px  rgb(230, 230, 16);
