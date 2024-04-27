@@ -3,31 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
     <title>Dr.Scholl Flores</title>
     <link rel="icon" href="../Imagenes/IconoScholl.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
      
-<header class="header">
-     <div class="logo">
-      <h1>Dr.Scholl Flores</h1>
-    </div>
-    <nav class="nav">
-      <ul>
-      <li><a href="index.html">Inicio</a> </li>
-      <li> <a href="#Servicios">Servicios y Productos</a></li>
-      <li> <a href="#Contacto">Contacto</a></li>
-    </ul>
-    </nav>
-</header>
- 
+<header>
+  <div class="logo">
+      <h1>Dr. Scholl Flores</h1>
+  </div>
 
+<button  id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+
+<nav class="nav" id="nav">
+    <button  id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+    <ul class="nav-list">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#Servicios">Servicios y productos</a></li>
+      <li><a href="#Contacto">Contacto</a></li>
+      <li><a href="#Sucursales">Otras Sucursales</a></li>
+    </ul>
+  </nav>
+ 
+</header>
+ <br>
+ <br>
 
 <main>
+
+   <!--Descripciones breves de los servicios y productos-->
+<div class="container">
+  <div class="row">
+      <div class="col-4">
+    <h3>Con 70 años de experiencia en el barrio de Flores</h3>
+   <p> Nos instalamos en el barrio en el año 1948, no hemos parado de brindar nuestro servicio y disponibilidad a la hora de tratar cualquier nesesidad con los pies. </p>
+    </div>
+
+   <div class="col-4"> 
+    <h3>Con profesionales a la hora</h3>
+   <p>
+     Contamos con Podologos graduados para poder atender sus dudas e inquietudes de la mejor forma posible. Su consulta no es molestia.
+    </p>
+    </div>
+
+   <div class="col-4">
+    <h3>Productos y plantillas</h3>
+    <p>
+        Ademas del servicio de podologia, tambien tenemos un catalogo de productos para el pie para tratar diferentes problemas, ya sea juanetes, callos, metatarso vencido, entre otros. A su vez tambien contamos con plantillas standar para venta al publico o plantillas ortopedicas con receta del traumatologo.
+    </p>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+ <div>
+  <h2 class="nuestra-s">Nuestra Sucursal</h2>
+ </div>
+ 
 <!--carrusel con imagenes del negocio-->
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
@@ -59,29 +96,8 @@
   <br>
   <br>
   
-  <!--Descripciones breves de los servicios y productos-->
-<div class="container">
-  <div class="row">
-      <div class="col-4">
-    <h3>Con 70 años de experiencia en el barrio de Flores</h3>
-   <p> Nos instalamos en el barrio en el año 1948, no hemos parado de brindar nuestro servicio y disponibilidad a la hora de tratar cualquier nesesidad con los pies. </p>
-    </div>
+ 
 
-   <div class="col-4"> 
-    <h3>Con profesionales a la hora</h3>
-   <p>
-     Contamos con Podologos graduados para poder atender sus dudas e inquietudes de la mejor forma posible. Su consulta no es molestia.
-    </p>
-    </div>
-
-   <div class="col-4">
-    <h3>Productos y plantillas</h3>
-    <p>
-        Ademas del servicio de podologia, tambien tenemos un catalogo de productos para el pie para tratar diferentes problemas, ya sea juanetes, callos, metatarso vencido, entre otros. A su vez tambien contamos con plantillas standar para venta al publico o plantillas ortopedicas con receta del traumatologo.
-    </p>
-    </div>
-  </div>
-</div>
 
 <br>
 <hr>
@@ -202,7 +218,9 @@
 <p>Nuestro local se encuentra en la esquina de Granaderos y Yerbal, Granaderos 102 a unas pocas cuadras de la plaza flores.</p>
 <br>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d686.0409404314229!2d-58.459946889200474!3d-34.62635261823812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca25d685b50d%3A0x795df51abf873f72!2sCasa%20Scholl!5e0!3m2!1ses!2sar!4v1684162382368!5m2!1ses!2sar" width="1410" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d686.0409404314229!2d-58.459946889200474!3d-34.62635261823812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca25d685b50d%3A0x795df51abf873f72!2sCasa%20Scholl!5e0!3m2!1ses!2sar!4v1684162382368!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 </div>
 
@@ -214,6 +232,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+<script src="../JS/main.js"></script>
 
 </body>
 

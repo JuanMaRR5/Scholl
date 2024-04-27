@@ -3,65 +3,59 @@
     margin: 0;
    }
 
+   header{
+    display: flex;
+    background-color: rgb(27, 27, 175);
+    border: rgb(240, 240, 15) 3px solid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+   }
+
+   .logo h1{
+     color: white;
+     font-size: 3rem;
+     margin: 1rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+    .nav-list{
+        display: flex;
+        list-style-type: none;
+        gap: 1.8rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .nav-list li a:hover {
+        background-color: rgb(245, 245, 32);
+        color: black;
+    }
+
+    .nav-list li a:active {
+      border: 3.5px black solid;
+      font-size: 1.6rem;
+    }
+    
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
    body {
-    font-family:  sans-serif;
     background-color: rgb(255, 255, 255);
    }
 
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(26, 26, 206);
-    border: solid 4px yellow;
-    height: 8rem;
-}
-
-
-
-.logo{
-    padding: 2.7rem;
-    margin: 1rem;
-    display: flex;
-    align-items: center;
-    color: rgb(240, 231, 231); 
-}
-
-.logo h1 {
-    font-size: 4.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-
-.nav ul{
-    display: flex;
-    justify-content: row;
-    align-items: center;
-   }
-
-.nav li{
-    list-style-type: none;
-}
-
-.nav a{
-    margin: 1rem;
-    color: rgb(240, 231, 231) ;
-    font-size: 1.7rem;
-    padding: 1rem;
-    text-decoration: none;
+.nuestra-s{
+    margin: 1.5rem;
+    text-decoration: underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.nav a:hover{
-    background-size: 1rem;
-    background-color: rgb(230, 230, 16);
-    color: black;
-    }
- 
-.nav a:active {
-    border: 3.3px solid rgb(248, 248, 248);
-  }
 
 .servicio-plantillas-productos{
     margin: 0.7rem;
@@ -102,10 +96,70 @@
 .ubicacion p{
     font-size: 1.4rem;
 }
+
+.mapa{
+    width: 10rem;
+    height: 7rem;
+    padding-bottom: 30rem;
+}
+
+
 .footer{
-        background-color:rgb(26, 26, 206);
+        background-color:  rgb(27, 27, 175);
         border: solid 2px  rgb(230, 230, 16);
         color: white;
         height: 4rem;
        
      }
+
+
+
+ @media screen and (max-width: 550px) {
+     
+   .abrir-menu, .cerrar-menu {
+    display: block;
+    border: 0;
+    font-size: 1.3rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+   }
+
+   .nav{
+    opacity: 0;
+    visibility: hidden;
+   }
+    
+   .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(32, 32, 32);
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+   }
+
+   .nav.visible {
+    opacity: 1;
+    visibility: visible;
+   }
+    
+   .nav-list{
+    flex-direction: column;
+    align-items: end;
+   }
+
+   .nav-list li a{
+    color: white;
+   }
+
+   .servicio-plantillas-productos{
+    font-size: 1.4rem;
+   }
+ 
+}
