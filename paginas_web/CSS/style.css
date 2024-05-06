@@ -18,6 +18,15 @@
      margin: 1rem;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
+ 
+ 
+      .logo a {
+        text-decoration: none;
+      }
+
+      .logo a:hover{
+        text-decoration: underline white;
+      }
 
     .nav-list{
         display: flex;
@@ -33,16 +42,16 @@
     }
 
     .nav-list li a:hover {
-        background-color: rgb(245, 245, 32);
+        background-color: rgb(233, 233, 30);
         color: black;
     }
 
     .nav-list li a:active {
-      border: 3.5px black solid;
-      font-size: 1.6rem;
+      border: 3.5px rgba(245, 243, 243, 0.986) solid;
+      font-size: 1.5rem;
+      color: rgb(245, 243, 243, 0.986);
     }
     
-
     .abrir-menu, .cerrar-menu{
         display: none;
     }
@@ -51,15 +60,8 @@
     background-color: rgb(240, 237, 237);
    }
 
-   .supe{
-    z-index: -1;
-   }
 
-.nuestra-s{
-    margin: 1.5rem;
-    text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+ /*pagina principal*/
 
 .servicio-plantillas-productos{
     margin: 0.7rem;
@@ -81,7 +83,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .telefonos{
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     padding: 1rem;
     margin: 1rem;
     display: flex;
@@ -93,20 +95,27 @@
 }
 
 .ubicacion{
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-left: 0.4rem;
+    margin-bottom: 3rem;
     padding: 0.8rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 1rem;
+    
 }
 .ubicacion p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
-.mapa{
-    width: 10rem;
-    height: 7rem;
-    padding-bottom: 30rem;
+/*Sucursales*/
+.titulo-s {
+    padding: 1rem;
+    margin: 0.5rem;
+    text-decoration: underline;
+    font-size: 2.5rem;
 }
-
 
 .footer{
         background-color:  rgb(27, 27, 175);
@@ -169,6 +178,16 @@
 
    .servicio-plantillas-productos{
     font-size: 1.4rem;
+   }
+
+   .telefonos{
+    justify-items: left;
+    flex-direction: column;
+    font-size: 1.6rem;
+   }
+
+   .ubicacion{
+    flex-direction: column;
    }
  
 }
