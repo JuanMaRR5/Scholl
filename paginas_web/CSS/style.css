@@ -71,28 +71,8 @@
    
 }
 
-.donde{
-    background-color: rgb(154, 196, 245);
-    margin-top: 4rem;
      
-}
-.donde h3{
-    margin: 1.5rem;
-    padding: 1rem;
-    font-size: 2.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.telefonos{
-    font-size: 1.9rem;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    justify-content: space-around;
-}
-.telefonos h4{
-    text-decoration: underline;
-    font-size: 1.7rem;
-}
+
 
 .ubicacion{
     margin-top: 3rem;
@@ -121,9 +101,40 @@
         background-color:  rgb(27, 27, 175);
         border: solid 2px  rgb(230, 230, 16);
         color: white;
-        height: 4rem;
        
-     }
+}
+
+.footer-sucursales{
+    height: 4rem;
+    background-color:  rgb(27, 27, 175);
+    border: solid 2px  rgb(230, 230, 16);
+    color: white;
+}
+
+.contacto{
+    font-size: 1.9rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contacto h4{
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+.sub-contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.icono-telefono{
+    width: 2.4rem;
+}
+
+.icono-reloj{
+    width: 3.15rem;
+}
 
 
 
@@ -180,7 +191,7 @@
     font-size: 1.4rem;
    }
 
-   .telefonos{
+   .contacto{
     justify-items: left;
     flex-direction: column;
     font-size: 1.6rem;
