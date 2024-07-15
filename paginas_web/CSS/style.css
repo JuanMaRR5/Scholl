@@ -145,7 +145,7 @@
 .sucursales-indice li a{
     color: rgb(10, 9, 9);
     text-decoration: none;
-    font-size: 1.75rem;
+    font-size: 1.85rem;
     color: black;
     padding: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -282,7 +282,7 @@
    }
 
    .carousel-item img{
-     height: 35rem; 
+     height: 30rem; 
      z-index: -1;
    }
 
