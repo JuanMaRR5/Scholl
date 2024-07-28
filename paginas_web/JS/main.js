@@ -9,3 +9,13 @@ abrir.addEventListener("click", () =>{
 cerrar.addEventListener("click", () =>{
     nav.classList.remove("visible");
 })
+
+
+let hideText_btn = document.getElementById('hideText_btn')
+let hideText = document.getElementById('hideText')
+
+hideText_btn.addEventListener('click', toggleText);
+
+function toggleText(){
+ hideText.classList.toggle('show');
+}
