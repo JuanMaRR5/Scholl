@@ -153,14 +153,6 @@
  color: white;
 }
 
-.hide{
-    display: none;
-}
-
-.show{
-    display: block;
-}
-
 .sucursales-indice{
     margin: 1rem;
 }
@@ -318,7 +310,7 @@
    }
    .servicio{
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
    }
 
    .i-podologia{
@@ -328,7 +320,7 @@
 
 .plantillas-ortopedicas{
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
  
 .i-plantillas{
@@ -337,7 +329,7 @@
 }
 
 .productos{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
    .ubicacion{
