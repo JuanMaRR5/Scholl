@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Sucursales</title>
-    <link rel="icon" href="../Imagenes/IconoScholl.png">
+    <link rel="icon" href="../Imagenes/IconoScholl.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
@@ -23,9 +23,10 @@
           <button  id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
           <ul class="nav-list">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="index.html#Servicios">Servicios y productos</a></li>
+            <li><a href="index.html#Servicios">Servicios</a></li>
+            <li><a href="index.html#Productos">Productos</a></li>
             <li><a href="index.html#Contacto">Contacto</a></li>
-            <li><a href="sucursales.html">Otras Sucursales</a></li>
+            <li><a href="sucursales.html">Sucursales</a></li>
           </ul>
         </nav>
        
@@ -36,8 +37,9 @@
       <div class="sucursales-indice">
         <ul>
           <li><a href="#almagro">Almagro</a></li>
+         <li><a href="#barrio-norte">Barrio Norte</a></li>
           <li><a href="#congreso">Congreso</a></li>
-          <li><a href="#barrio-norte">Barrio Norte</a></li>
+           <li><a href="index.html">Flores</a></li>
         </ul>
       </div>
 
@@ -45,7 +47,7 @@
       <br>
       <hr>
 
-
+<!--Almagro-->
 <div class="container">
     <div class="local">
       <h3 id="almagro">Almagro</h3>
@@ -98,7 +100,64 @@
      <hr>
    
 
-  <div class="container">
+  <!--Barrio Norte-->
+     <div class="container">
+        <div class="local">
+             <h3 id="barrio-norte">Barrio Norte</h3>
+             
+             <div>
+              <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../Imagenes/Riobamba1.jpeg" class="d-block w-100" alt="Frente de Local">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Imagenes/Riobamba2.jpeg" class="d-block w-100" alt="Sala de estar">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Imagenes/Riobamba3.jpeg" class="d-block w-100" alt="Consultorio">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+             </div>
+            
+             <div class="texto">
+             <div> <!--Ubicacion -->
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="476" height="369" id="gmap_canvas" src="https://maps.google.com/maps?q=Riobamba+1128&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://textcaseconvert.com"></a><br><a href="https://www.calc-calc.com"></a><br><style>.mapouter{position: relative;text-align: right;height: 369px;width: 476px;}</style><a href="https://www.ongooglemaps.com">map box</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 369px;width: 476px;}</style></div></div>
+             </div>
+
+             <div>
+              <p>
+                <ul>
+                  <li> <b>Barrio:</b> Barrio Norte</li>
+                  <li> <b>Direccion:</b> Riobamba 1128</li>
+                  <li> <b>Horarios de atencion:</b> <br>
+                  Lunes a Viernes de 9 a 18 hs <br>
+                  Sabados de 9 a 13 hs
+                  </li>
+                  <li> <b>Contacto:</b> 4814-4858</li>
+                </ul>
+              </p>
+             </div>
+             </div>
+             
+           </div>
+     </div>
+  
+   <br>
+      <br>
+     <hr>
+  
+    <!--Congreso-->
+     <div class="container">
        <div class="local">
          <h3 id="congreso">Congreso</h3>
         <div>
@@ -152,66 +211,7 @@
   </div>
 
      
-     
-    
-    <br>
-      <br>
-     <hr>
-
-
-     <div class="container">
-        <div class="local">
-             <h3 id="barrio-norte">Barrio Norte</h3>
-             
-             <div>
-              <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../Imagenes/Riobamba1.jpeg" class="d-block w-100" alt="Frente de Local">
-                </div>
-                <div class="carousel-item">
-                  <img src="../Imagenes/Riobamba2.jpeg" class="d-block w-100" alt="Sala de estar">
-                </div>
-                <div class="carousel-item">
-                  <img src="../Imagenes/Riobamba3.jpeg" class="d-block w-100" alt="Consultorio">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-             </div>
-            
-             <div class="texto">
-             <div> <!--Ubicacion -->
-              <div class="mapouter"><div class="gmap_canvas"><iframe width="476" height="369" id="gmap_canvas" src="https://maps.google.com/maps?q=Riobamba+1128&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://textcaseconvert.com"></a><br><a href="https://www.calc-calc.com"></a><br><style>.mapouter{position: relative;text-align: right;height: 369px;width: 476px;}</style><a href="https://www.ongooglemaps.com">map box</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 369px;width: 476px;}</style></div></div>
-             </div>
-
-             <div>
-              <p>
-                <ul>
-                  <li> <b>Barrio:</b> Barrio Norte</li>
-                  <li> <b>Direccion:</b> Riobamba 1128</li>
-                  <li> <b>Horarios de atencion:</b> <br>
-                  Lunes a Viernes de 9 a 18 hs <br>
-                  Sabados de 9 a 13 hs
-                  </li>
-                  <li> <b>Contacto:</b> 4814-4858</li>
-                </ul>
-              </p>
-             </div>
-             </div>
-             
-           </div>
-     </div>
-
-      
-        <a href="#volver-arriba-sucursales">
+      <a href="#volver-arriba-sucursales">
              <button class="arriba">Ir arriba</button>
         </a>
      

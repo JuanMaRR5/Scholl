@@ -14,8 +14,8 @@
 
    .logo{
      width: 17rem;
-     height: 10rem;
-     margin-left: 7rem;
+     height: 9rem;
+     margin-left: 5.5rem;
      border-radius: 60%;
       }
  
@@ -292,11 +292,12 @@
 }
 
 .sucursales-indice{
-    margin: 1rem;
+    margin-left: 5rem;
 }
 
 .sucursales-indice li{
-    list-style-type:circle;
+    list-style-type:disc;
+    margin-top: 0.5rem;
 }
 
 .sucursales-indice li a{
@@ -304,17 +305,21 @@
     text-decoration: none;
     font-size: 1.85rem;
     color: black;
-    padding: 1rem;
+    padding: 0.3rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    gap: 3rem;
     
 }
 
 .sucursales-indice li a:hover {
     text-decoration: underline;
+    background-color: rgb(18, 18, 143);
+    color: white;
+    border-radius: 15%;
 }
 
 .sucursales-indice li a:active {
-    color: rgb(76, 162, 212);
+    color: rgb(229, 255, 0);
 }
 
 .carousel-item img {
