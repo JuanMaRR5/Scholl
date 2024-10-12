@@ -13,10 +13,10 @@
    }
 
    .logo{
-     width: 20rem;
+     width: 17rem;
      height: 10rem;
-     margin-left: 5rem;
-     border-radius: 10%;
+     margin-left: 7rem;
+     border-radius: 60%;
       }
  
 
@@ -31,8 +31,9 @@
     .nav-list{
         display: flex;
         list-style-type: none;
-        gap: 1.8rem;
+        gap: 1.9rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
     }
 
     .nav-list li a {
@@ -45,12 +46,14 @@
         background-color: rgb(233, 233, 30);
         color: black;
         font-size: 1.7rem;
+        border-radius: 20%;
+        border: 3px solid black;
     }
 
     .nav-list li a:active {
       border: 3.5px rgba(245, 243, 243, 0.986) solid;
       font-size: 1.5rem;
-      color: rgb(245, 243, 243, 0.986);
+      color: rgba(51, 96, 245, 0.986);
     }
     
     .abrir-menu, .cerrar-menu{
@@ -371,12 +374,12 @@
     gap: 0.5rem;
 }
 
-.instagram a{
+.redes a{
     color: white;
     text-decoration: none;
 }
 
-.instagram a:hover {
+.redes a:hover {
     color: yellow;
     text-decoration: underline;
 }
