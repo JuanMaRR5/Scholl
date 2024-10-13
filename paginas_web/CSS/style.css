@@ -107,19 +107,22 @@
     padding: 0.7rem;
     font-family:'Times New Roman', Times, serif;
     font-size: 1.25rem;  
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(218, 218, 218);
+    width: 75rem;
    
 }
 
 .titulo-productos{
-    font-size: 3.3rem;
+    font-size: 2.3rem;
     text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 3.8rem;
 }
 .ul-productos li{
     margin: 1rem;
-    border: 1px solid rgb(167, 167, 167);
+     border-top: 2px solid rgb(167, 167, 167);
+     width: 55rem;
+     font-size: 1.5rem;
 }
 
 .ul-productos h5{
@@ -131,15 +134,19 @@
 
 .productos-img {
     width: 37rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
     margin-left: 8rem;
     border: solid 2px rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px 0px rgb(99, 95, 95);
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 0px rgb(29, 183, 255);
 }
 
 .boton-p-a{
     background-color: rgb(27, 104, 221);
     color: rgb(255, 254, 254);
     border-radius: 5%;
+    border: 1px solid black;
     
 }
 
@@ -159,16 +166,17 @@
 .boton-p-c{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-size: 1.4rem;
-    margin-left: 1rem;
+    font-size: 1.7rem;
+    margin-left: 1.5rem;
     border: 1px solid white;
+    border-radius: 10%;
 }
 
 .boton-p-c:hover{
     background-color: rgb(255, 255, 255);
     color: black;
-    border: 2px solid rgb(0, 0, 0);
-    font-size: 1.45rem;
+    border: 3.5px solid rgb(0, 0, 0);
+    font-size: 1.8rem;
 }
 
 
@@ -202,10 +210,15 @@
     flex-direction: row-reverse;
     justify-content: center;
     gap: 2.4rem;
-    
-}
+    }
+
 .ubicacion p{
     font-size: 1.2rem;
+}
+
+.dire-exacta {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
 }
 
 .horarios-posicion{
@@ -213,7 +226,7 @@
 }
 
 .horarios-posicion p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .horarios{
@@ -297,7 +310,7 @@
 
 .sucursales-indice li{
     list-style-type:disc;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .sucursales-indice li a{
@@ -335,7 +348,9 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+.info-local li{
+    margin-top: 1rem;
+}
 .texto{
     display: flex;
     flex-direction: row;
@@ -490,9 +505,14 @@
         height: 17rem;
         border: 2px solid grey;
     }
+
+    .ul-productos li{
+        width: 24rem;
+    }
     
     .productos{
         font-size: 1.1rem;
+        width: 28rem;
     }
 
     .productos-img{
@@ -639,8 +659,13 @@
     height: 24rem;
 }
 
+.ul-productos li{
+    width: 25rem;
+}
+
 .productos{
     font-size: 1.1rem;
+    width: 29rem;
 }
 
 .productos-img{
@@ -679,6 +704,11 @@
     flex-direction: column;
     font-size: 1.6rem;
    }
+
+   .redes{
+    margin-top: 1rem;
+   }
+
 
    .titulo-s{
     align-items: center;
