@@ -53,7 +53,7 @@
     .nav-list li a:active {
       border: 3.5px rgba(245, 243, 243, 0.986) solid;
       font-size: 1.5rem;
-      color: rgba(51, 96, 245, 0.986);
+      color: rgba(4, 54, 216, 0.986);
     }
     
     .abrir-menu, .cerrar-menu{
