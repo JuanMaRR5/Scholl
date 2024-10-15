@@ -263,13 +263,10 @@
     border: 7px solid rgb(255, 255, 45);
 }
 
-.arriba a:hover {
-    color: rgb(255, 255, 45);
-    text-decoration: underline;
-}
 
 .arriba:active {
   background-color: rgb(51, 51, 245);
+  border: 9px solid rgb(255, 255, 45);
 }
 
 /*Sucursales*/
