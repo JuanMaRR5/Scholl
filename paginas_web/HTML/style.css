@@ -546,6 +546,10 @@
         flex-direction: column;
         font-size: 1.6rem;
        }
+
+       .redes{
+        margin-top: 2.2rem;
+       }
     
        .titulo-s{
         align-items: center;
@@ -701,7 +705,7 @@
    }
 
    .redes{
-    margin-top: 1rem;
+    margin-top: 2rem;
    }
 
 
@@ -717,4 +721,154 @@
     flex-direction: column;
     gap: 1rem;
    }
+}
+
+
+/*Celular chico*/
+@media screen and (max-width: 380px) {
+
+  /*Pagina principal*/
+    .carousel-item img{
+        height: 20rem; 
+        z-index: -1;
+      }
+
+      .container{
+        font-size: 0.8rem;
+       }
+       
+       .container h3{
+        font-size: 1rem;
+       }
+
+       .servicio{
+        font-size: 0.9rem ;
+       }
+
+       .plantillas-ortopedicas{
+        font-size: 0.9rem;
+       }
+
+      .i-podologia{
+        width: 18rem;
+        height: 16rem;
+          }
+
+           
+.i-plantillas{
+    width: 18rem;
+    height: 16rem;
+}
+
+.titulo-productos{
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+}
+
+.ul-productos li{
+    width: 16rem;
+    margin-top: 2rem;
+     font-size: 1.3rem;
+}
+
+.productos{
+   
+    width: 20rem;
+}
+
+.productos-img{
+    width: 15rem;
+    margin-left: 0.2rem;
+}
+
+.icono-reloj{
+    width: 2rem;
+   }
+
+   .horarios-posicion h4{
+    font-size: 1.5rem;
+    
+  } 
+
+  .horarios-posicion p{
+    font-size: 1.2rem;
+  }  
+
+  /*Sucursales*/
+.titulo-s {
+    padding-left: 2rem;
+    margin-left: 0.5rem;
+    text-decoration: underline;
+    font-size: 2.3rem;
+}
+
+.alm_btn{
+    background-color: rgb(24, 24, 110);
+    border: none;
+    border-radius: 9rem;
+    color: white;
+    padding: 15px 29px;
+    font-size: 1.4rem;
+    box-shadow: 0px 0px 10px 0px rgb(74, 74, 243);
+    cursor: pointer;
+}
+
+.alm_btn:hover{
+ box-shadow: none;
+ background-color: black;
+ color: white;
+}
+
+.sucursales-indice{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 20rem;
+}
+
+.sucursales-indice li{
+    list-style-type:disc;
+    margin-top: 1rem;
+}
+
+.sucursales-indice li a{
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    font-size: 1.85rem;
+    color: black;
+    padding: 0.3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    gap: 3rem;
+    
+}
+
+.carousel-item img {
+    height: 21rem
+    }
+
+.local h3{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-local li{
+    margin-top: 1rem;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.mapa{
+    margin-left: -1.15rem;
+}
+
+
 }
