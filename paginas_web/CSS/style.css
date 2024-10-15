@@ -61,7 +61,7 @@
     }
 
    body {
-    background-color: rgb(240, 237, 237);
+    background-color: rgb(247, 246, 246);
    }
 
 
@@ -238,6 +238,7 @@
 .horarios h4 {
     margin-top: 1rem;
     font-size: 2.1rem;
+    
 }
 
 .icono-reloj{
@@ -256,12 +257,6 @@
     margin-left: 70rem;
     margin-bottom: 2rem;
     padding: 1rem;
-}
-
-.arriba a{
- text-decoration: none;
- color: white;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .arriba:hover{
@@ -305,7 +300,10 @@
 }
 
 .sucursales-indice{
-    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 30rem;
+    height: 24rem;
 }
 
 .sucursales-indice li{
