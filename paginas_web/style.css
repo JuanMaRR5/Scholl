@@ -630,51 +630,61 @@
    }
 
    .carousel-item img{
-     height: 30rem; 
+     height: 20rem; 
      z-index: -1;
    }
 
    .container h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
    }
 
    .container{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
    }
 
 
    .servicio{
     flex-direction: column;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
    }
 
    .i-podologia{
-    width: 23rem;
-    height: 21rem;
+    width: 18rem;
+    height: 15rem;
     
    }
 
 .plantillas-ortopedicas{
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
  
 .i-plantillas{
-    width: 23rem;
-    height: 21rem;
+    width: 18rem;
+    height: 15rem;
 }
 
 .ul-productos li{
-    width: 25rem;
+    width: 20rem;
 }
 
 .productos{
-    font-size: 1.1rem;
-    width: 29rem;
+    width: 21rem;
+}
+
+.titulo-productos{
+    font-size: 2rem;
+}
+
+.productos li {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    width: 15rem;
 }
 
 .productos-img{
-    width: 22rem;
+    width: 15rem;
+    height: 12rem;
     margin: 1rem;
 }
 
@@ -691,7 +701,7 @@
    }
 
   .horarios-posicion h4{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-decoration: underline;
   } 
 
@@ -720,11 +730,11 @@
    }
 
    .local h3{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
    }
 
    .info-local{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     gap: 0.3rem;
    }
 
@@ -744,16 +754,16 @@
 
   /*Pagina principal*/
     .carousel-item img{
-        height: 20rem; 
+        height: 15.4rem; 
         z-index: -1;
       }
 
       .container{
-        font-size: 0.74rem;
+        font-size: 0.67rem;
        }
        
        .container h3{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
        }
 
        .servicio{
@@ -765,19 +775,19 @@
        }
 
       .i-podologia{
-        width: 18rem;
-        height: 16rem;
+        width: 16rem;
+        height: 15rem;
           }
 
            
 .i-plantillas{
-    width: 18rem;
-    height: 16rem;
+    width: 16rem;
+    height: 15rem;
 }
 
 .titulo-productos{
     font-size: 1.7rem;
-    margin-left: 0.5rem;
+    margin-left: 0.4rem;
 }
 
 .ul-productos li{
