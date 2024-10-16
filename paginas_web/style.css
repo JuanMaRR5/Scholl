@@ -276,7 +276,6 @@
     margin: 0.5rem;
     text-decoration: underline;
     font-size: 3.2rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .alm_btn{
@@ -301,6 +300,7 @@
     margin-left: 3rem;
     width: 30rem;
     height: 24rem;
+    
 }
 
 .sucursales-indice li{
