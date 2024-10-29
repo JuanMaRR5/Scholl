@@ -380,10 +380,6 @@
     display: flex;
     justify-content: space-around;
 }
-.contacto h4{
-    text-decoration: underline;
-    font-size: 1.7rem;
-}
 
 .sub-contacto{
     display: flex;
